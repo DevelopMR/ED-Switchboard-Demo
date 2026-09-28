@@ -1,0 +1,23 @@
+export const PgFields = {
+  PageDateTime: "PgPageDateTime",
+  PageType: "PgPageType",
+  MessageText: "PgMessageText",
+  Location: "PgLocation",
+  AlertCategory: "PgAlertCategory",
+  DescriptionOfAlert: "PgDescriptionOfAlert",
+  CallerName: "PgCallerName",
+  UnitDepartment: "PgUnitDepartment",
+  PatientName: "PgPatientName",
+  PatientMrn: "PgPatientMrn",
+  PatientDob: "PgPatientDob",
+  PatientSsn: "PgPatientSsn",
+  AllClearDateTime: "PgAllClearDateTime",
+  AdditionalInfo: "PgAdditionalInfo",
+  Switchboard: "PgSwitchboard",
+  RiskmasterCode: "PgRiskmasterCode",
+  SourceModule: "PgSourceModule",
+  SourceItemId: "PgSourceItemId",
+  OperatorName: "PgOperatorName",
+  Status: "PgStatus",
+  Notes: "PgNotes"
+} as const;

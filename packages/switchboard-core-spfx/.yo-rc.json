@@ -1,0 +1,23 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "whichFolder": "subdir",
+    "solutionName": "switchboard-core-spfx",
+    "environment": "spo",
+    "packageManager": "npm",
+    "useGulp": false,
+    "componentType": "webpart",
+    "template": "react",
+    "componentName": "SwitchboardShell",
+    "componentDescription": "Shell host for the ED Switchboard Daily Notes console.",
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "22.17.0",
+    "sdksVersions": {},
+    "version": "1.22.2",
+    "libraryName": "@ed-switchboard/switchboard-core-spfx",
+    "libraryId": "48891050-e53e-4aae-b39c-267715445236",
+    "solutionShortDescription": "ED Switchboard Core shell",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false
+  }
+}

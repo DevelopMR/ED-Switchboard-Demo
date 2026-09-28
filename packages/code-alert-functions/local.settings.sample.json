@@ -1,0 +1,15 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "CodeAlertPromotionMode": "Stub",
+    "CodeAlertHubSiteUrl": "https://darkmatter.sharepoint.com/sites/EDSwitchboard",
+    "CodeAlertHubSiteId": "",
+    "CodeAlertIntakeListTitle": "CaOriginatorRequests",
+    "CodeAlertIntakeListId": "",
+    "CodeAlertSecuredListTitle": "CodeAlerts",
+    "CodeAlertSecuredListId": "",
+    "CodeAlertOriginatorIdFieldName": "CaOriginatorID"
+  }
+}

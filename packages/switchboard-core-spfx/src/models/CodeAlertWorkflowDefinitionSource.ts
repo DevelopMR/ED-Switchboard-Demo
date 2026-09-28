@@ -1,0 +1,33 @@
+export interface CodeAlertWorkflowDefinitionSource {
+  Title: string;
+  CaRuleId: string;
+  CaIsActive: boolean;
+  CaSortOrder: number;
+  CaCategory: "Medical" | "Security" | "Facility";
+  CaPlainLanguagePrefix: "Medical Alert" | "Security Alert" | "Facility Alert";
+  CaAlertType: string;
+  CaLegacyCode: string;
+  CaDisplayLabel: string;
+  CaShortLabel: string;
+  CaDisplayColor: string;
+  CaAnnouncementTemplate: string;
+  CaAllClearTemplate: string;
+  CaCancelTemplate: string;
+  CaProcedureHtml: string;
+  CaRequiresLocation: boolean;
+  CaAllowsInstructions: boolean;
+  CaRequiresAcknowledgement: boolean;
+  CaRequiresEpicBedPlanningConfirm: boolean;
+  CaRequiresEpicRespiratoryConfirm: boolean;
+  CaRequiresSecurityConfirm: boolean;
+  CaRequiresMaintenanceConfirm: boolean;
+  CaRequires911Confirm: boolean;
+  CaAllowsCancel: boolean;
+  CaAllowsAllClear: boolean;
+  CaAllowsNotCleared: boolean;
+  CaNotClearedDelayMinutes: number;
+  CaActionSchemaJson: string;
+  CaFormSchemaJson: string;
+  CaSourceReference: string;
+  CaRedactionNote: string;
+}

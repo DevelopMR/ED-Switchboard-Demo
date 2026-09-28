@@ -1,0 +1,21 @@
+export const RmFields = {
+  SubmittedAt: "RmSubmittedAt",
+  Operator: "RmOperator",
+  AlertType: "RmAlertType",
+  Condition: "RmCondition",
+  Location: "RmLocation",
+  Facility: "RmFacility",
+  Department: "RmDepartment",
+  Room: "RmRoom",
+  DateOfCall: "RmDateOfCall",
+  AllClearDateTime: "RmAllClearDateTime",
+  Alerted911: "Rm911Alerted",
+  Cancelled911: "Rm911Cancelled",
+  EventDescription: "RmEventDescription",
+  ReceiptCode: "RmReceiptCode",
+  Status: "RmStatus",
+  SourcePopupId: "RmSourcePopupId",
+  SourceAlertId: "RmSourceAlertId",
+  PayloadJson: "RmPayloadJson",
+  Notes: "RmNotes"
+} as const;

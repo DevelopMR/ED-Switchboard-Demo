@@ -1,0 +1,5 @@
+
+# Local-only settings (real Azure/tenant values). Never commit.
+*.local.md
+
+*.bundle

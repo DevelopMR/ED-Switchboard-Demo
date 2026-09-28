@@ -1,0 +1,36 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "ed-code-alert-originator-client-side-solution",
+    "id": "5869ea90-28ac-4de6-a1f5-89b6076ef7eb",
+    "version": "1.0.0.10",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.22.2"
+    },
+    "metadata": {
+      "shortDescription": { "default": "Remote Code Alert Originator" },
+      "longDescription": { "default": "Safe demo intake control for remote Code Alert requests." },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "ED Code Alert Originator Feature",
+        "description": "Activates the remote Code Alert Originator web part.",
+        "id": "27f93ad1-8c51-47f5-a539-fc680d275d9b",
+        "version": "1.0.0.10"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/ed-code-alert-originator.sppkg"
+  }
+}

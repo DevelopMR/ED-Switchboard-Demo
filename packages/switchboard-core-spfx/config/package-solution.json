@@ -1,0 +1,41 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "ed-switchboard-core-client-side-solution",
+    "id": "48891050-e53e-4aae-b39c-267715445236",
+    "version": "1.0.1.24",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.22.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "ED Switchboard Core shell"
+      },
+      "longDescription": {
+        "default": "Shell host for the ED Switchboard Daily Notes console."
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "ED Switchboard Core Feature",
+        "description": "Activates the ED Switchboard shell web part.",
+        "id": "5b55e1ff-cb04-41f1-b293-5823c3d3890e",
+        "version": "1.0.1.24"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/ed-switchboard-core.sppkg"
+  }
+}
+

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "switchboard-shell-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/switchboardShell/SwitchboardShellWebPart.js",
+          "manifest": "./src/webparts/switchboardShell/SwitchboardShellWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SwitchboardShellWebPartStrings": "lib/webparts/switchboardShell/loc/{locale}.js"
+  }
+}

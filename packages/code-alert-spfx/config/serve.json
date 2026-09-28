@@ -1,0 +1,6 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4322,
+  "https": true,
+  "initialPage": "https://darkmatter.sharepoint.com/sites/EDSwitchboard/SitePages/Home.aspx?loadSPFX=true&debugManifestsFile=https://localhost:4322/temp/build/manifests.js"
+}
