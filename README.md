@@ -2,7 +2,7 @@
 
 A working SharePoint Online / SPFx proof of concept for an Emergency Department switchboard operator. It turns the paper forms and phone-list habits of a busy switchboard desk into guided, keyboard-friendly workflows that log themselves.
 
-**[Watch the 7-minute demo video](https://www.youtube.com/watch?v=b44VyWwEeps)**
+**[Watch the 7-minute demo video](https://youtu.be/4xW-7UPP9EE)**
 
 ![ED Switchboard Log: the operator's living shift log with workflow launchers](docs/images/ED%20Switchboard%20Log.png)
 
